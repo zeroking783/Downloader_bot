@@ -1,0 +1,9 @@
+[package]
+name = "Downloader_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+tokio-postgres = "0.7"
+rust-ini = "0.21"
